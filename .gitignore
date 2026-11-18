@@ -1,0 +1,43 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local AI models and model weights
+models/
+*-ov/
+*.bin
+*.onnx
+*.safetensors
+*.gguf
+*.pt
+*.pth
+
+# OpenVINO cache
+.cache/
+openvino_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore

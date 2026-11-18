@@ -1,0 +1,6 @@
+﻿numpy==2.4.6
+openvino==2026.4.1
+transformers==5.5.4
+tokenizers==0.22.2
+pypdf==7.1.0
+python-docx==1.2.0

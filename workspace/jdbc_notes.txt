@@ -1,0 +1,22 @@
+Java Database Connectivity (JDBC)
+
+JDBC is a Java API used to connect Java applications to databases.
+
+The main steps involved in JDBC connectivity are:
+
+1. Import JDBC packages.
+2. Load or register the database driver.
+3. Establish a database connection.
+4. Create a Statement or PreparedStatement.
+5. Execute SQL queries.
+6. Process the ResultSet.
+7. Close database resources.
+
+A Connection object represents a connection to a database.
+
+A PreparedStatement is used to execute parameterized SQL queries.
+It helps prevent SQL injection and allows efficient query execution.
+
+The ResultSet object stores the results returned by a SELECT query.
+
+JDBC is commonly used with relational databases such as MySQL and PostgreSQL.

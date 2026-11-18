@@ -1,0 +1,8 @@
+Academic AI lifecycle test.
+
+Java supports object-oriented programming.
+A class is a blueprint for creating objects.
+An object is an instance of a class.
+
+Inheritance allows one class to acquire the properties and methods of another class.
+Polymorphism allows the same method or interface to behave differently in different situations.
